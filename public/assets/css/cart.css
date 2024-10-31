@@ -1,0 +1,43 @@
+/* Cart */
+.shopping-cart a,
+.shopping-cart a:visited {
+    color: #555;
+}
+.nav-tabs.nav-justified > li > a.inactive {
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+}
+.nav > li > a.inactive:hover, .nav > li > a.inactive:focus {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.cupon-invalid {
+    color: #dd3d36;
+}
+.cupon-valid {
+    color: #649316;
+}
+.cupon-valid,
+.cupon-invalid {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    height: 16px;
+    left: 80px;
+    position: absolute;
+    top: 9px;
+    width: 16px;
+    z-index: 100;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"]{
+    box-shadow:none !important;
+    text-shadow:none !important;
+}
+
+.shopping-cart a.btn-info:hover, .shopping-cart a.btn-info:focus, .shopping-cart a.btn-info.focus, .shopping-cart a.btn-info:active {
+    color: #fff;
+}
